@@ -1,5 +1,6 @@
-//LED's code for NodeMCU 0 iot2
-//LED endPoint-a3h5tzv2rlke59-ats.iot.us-east-1.amazonaws.com
+// LED's code for NodeMCU 0 iot2
+// LED endPoint-a3h5tzv2rlke59-ats.iot.us-east-1.amazonaws.com
+// Can be controlled using "NodeMCU\AWS\GPIO_Console\GUI_LEDConsole.py" and "NodeMCU\AWS\GPIO_Console\LEDConsole.py"
 #include "FS.h"
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
