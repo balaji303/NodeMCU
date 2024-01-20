@@ -2,7 +2,8 @@
 
 #include <Arduino.h>
 
-#define LED LED_BUILTIN
+//#define LED LED_BUILTIN
+#define LED 16
 //LED->2
 //.\wget.exe "https://ritchennai.org/naac/naac/" --recursive --level=5
 
@@ -16,8 +17,8 @@ void loop() {
   // put your main code here, to run repeatedly:
   digitalWrite(LED, HIGH);
   Serial.println("LED is on");
-  delay(1000);
+  delay(100);
   digitalWrite(LED, LOW);
   Serial.println("LED is off");
-  delay(1000);
+  delay(100);
 }
